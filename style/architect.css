@@ -5,6 +5,20 @@
     margin: 0;
     padding: 0;
 }
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 18px 25px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    
+  
+
+}
+/* header */
 
 header{
     background-color:rgba(255, 144, 14, 0.10);
@@ -38,4 +52,34 @@ nav{
 
 nav > ul{
     display: flex;
-  
+}
+
+/* banner */
+.banner-container{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 80px 0px 20px 0px;
+    
+}
+
+.banner-img{
+    width: 100%;
+    margin-top: 20px ;
+
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.banner-info{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
